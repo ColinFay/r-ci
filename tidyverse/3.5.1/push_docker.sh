@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VER=${basename `pwd`}
+VER=${PWD##*/}
 LOCAL="colinfay/r-ci-tidyverse:${VER}"
 
 docker tag $LOCAL $LOCAL
