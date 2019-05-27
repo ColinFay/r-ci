@@ -8,7 +8,7 @@ This image was created in order to be used in a CI/CD environment like Gitlab CI
 
 Dockerfiles are based on a [rocker](https://hub.docker.com/u/rocker) image, with these packages installed : 
 
-### tidyverse
+### rocker/tidyverse
 
 | Package |  3.6.0|   3.5.3|    3.5.2|     3.5.1|      3.5.0| 
 |--------:|------:|------:|------:|------:|------:|
