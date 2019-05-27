@@ -6,7 +6,7 @@ This image was created in order to be used in a CI/CD environment like Gitlab CI
 
 ## Packages installed
 
-Dockerfiles are based on a [rocker-versioned]() image, with these packages installed : 
+Dockerfiles are based on a [rocker](https://hub.docker.com/u/rocker) image, with these packages installed : 
 
 ### tidyverse
 
