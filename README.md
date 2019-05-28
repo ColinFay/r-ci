@@ -12,7 +12,7 @@ docker pull colinfay/r-ci-tidyverse:3.6.0
 
 ## Packages installed
 
-Dockerfiles are based on a [rocker](https://hub.docker.com/u/rocker) image, with these packages installed : 
+Dockerfiles are based on a [rocker](https://hub.docker.com/u/rocker) image, with these packages installed on top: 
 
 ### rocker/tidyverse
 
