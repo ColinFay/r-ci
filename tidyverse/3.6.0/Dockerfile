@@ -10,4 +10,5 @@ RUN apt-get update && \
     remotes && \
     R -e "remotes::install_cran(c('devtools', 'pak', 'ssh',\
       'desc','dockerfiler', 'testthat', 'vdiffr', 'pkgload',\
-      'rcmdcheck','covr', 'pkgbuild', 'pkgdown'))"
+      'rcmdcheck','covr', 'pkgbuild', 'pkgdown', 'config', \
+      'tinytest'))"

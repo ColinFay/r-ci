@@ -15,4 +15,5 @@ RUN apt-get update && \
     rcmdcheck \
     covr \
     pkgbuild \
-    pkgdown
+    pkgdown \
+    config
